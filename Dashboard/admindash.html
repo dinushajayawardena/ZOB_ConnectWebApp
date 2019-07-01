@@ -1,0 +1,30 @@
+<html>
+    <header>
+        <title>Dashboard - Admin</title>
+        <link rel="stylesheet" href="dashboard.css">
+        <script src="changecontent.js"></script>
+    </header>
+    <body>
+        <div class="main_background">
+            <div class="main_logo"></div>
+            <div class="dash_content_background">
+                <div class="select_user">
+                    <div class="soldier" id="button_box">Soldier</div>
+                    <div class="instructor" id="button_box">Instructor</div>
+                    <div class="admin" id="button_box">Admin</div>
+                </div>
+
+            </div>
+            <div class="dash_background">
+                <div class="dash_heading">Dashboard</div>
+                <div class="adduser_tab" id="tabs" onclick="adduser_selected()">Add User</div>
+                <div class="updateuser_tab" id="tabs" onclick="updateuser_selected()">Update user</div>
+                <div class="deleteuser_tab" id="tabs" onclick="deleteuser_selected()">Delete User</div>
+                <div class="settings_tab" id="tabs" onclick="settings_selected()">Settings</div>
+                <div class="logout_tab" id="tabs" onclick="logout_selected()">Logout</div>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>

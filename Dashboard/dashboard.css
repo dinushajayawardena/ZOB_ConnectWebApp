@@ -1,0 +1,96 @@
+.main_background{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
+
+.main_logo{
+    background-color: white;
+    width: 20%;
+    height: 12%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 0%;
+}
+
+.dash_background{
+    background-color: aliceblue;
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-top: 0%;
+    margin-left: -20%;
+}
+
+.dash_heading{
+    background-color: aqua;
+    width: 103%;
+    height: 10%;
+    margin-left: -3%;
+    font-size: 270%;
+    text-align: center;
+}
+
+#tabs{
+    background-color: coral;
+    width: 75%;
+    height: 7%;
+    margin-top: 10%;
+    font-size: 150%;
+    text-align: center;
+}
+
+#tabs:hover{
+    background-color: cyan;
+    width: 100%;
+    height: 10%;
+    transform-style: flat;
+    transition-duration: 300ms;
+    font-size: 200%;
+}
+
+.dash_content_background{
+    background-color: white;
+    float: right;
+    height: 95%;
+    width: 77%;
+    margin-top: 1.5%;
+    margin-right: 1.5%;
+    
+}
+
+.select_user{
+    background-color: darkkhaki;
+    float: right;
+    width: 90%;
+    height: 50%;
+    margin-right: 5%;
+    margin-top: 17%;
+}
+
+#button_box{
+    width: 30%;
+    height: 90%;
+    margin-top: 1.75%;
+    float: left;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+#button_box:hover{
+    box-shadow: 2px 2px gray;
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+
+.soldier{
+    background-color: red;
+}
+
+.instructor{
+    background-color: green;
+}
+
+.admin{
+    background-color: yellow;
+}
